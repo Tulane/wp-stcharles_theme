@@ -31,7 +31,7 @@ Happy hacking!
 -Bb.
 
 [Gutenberg]:https://wordpress.org/gutenberg/
-[TU Sites]:https://sites.tulane.edu
+[Tulane Sites]:https://sites.tulane.edu
 ["Issues" tab]:https://github.com/bbertucc/boilerplate-gutenberg/issues
 [open repo]:https://github.com/bbertucc/boilerplate-gutenberg
 [Advanced Custom Fields]:https://advancedcustomfields.com
