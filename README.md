@@ -1,6 +1,6 @@
 # "St. Charles" Theme
 
-This repo contains a WordPress theme built to support "Gutenberg" blocks of the [Tulane Sites] platform. This theme includes many modern standards for developing/designing websites. We've created [a directory of different sites] using the theme.
+This repo contains a WordPress theme built to support "Gutenberg" blocks of the [Tulane Sites] platform. This theme includes many modern standards for developing/designing websites. We've created [a directory of different sites] using this theme.
 
 ### Theme Highlights
 - *Gutenberg Ready*: This theme is made for WordPress’s “[Gutenberg]” block editor. 
@@ -22,7 +22,7 @@ To run the theme properly, you'll need the [Gutenberg] plugin and the latest ver
 Feel free to pull, fork and manipulate.
 
 ### Issue Reporting and Questions
-Issues and questions can be added under my open repo's [“Issues" tab]. 
+Issues and questions can be added under my open repo's ["Issues" tab]. 
 
 This theme is currently developed by me, [@bbertucc], and [Decubing] with [Tulane Technology Services].
 
@@ -32,7 +32,7 @@ Happy hacking!
 
 [Gutenberg]:https://wordpress.org/gutenberg/
 [Tulane Sites]:https://sites.tulane.edu
-["Issues" tab]:https://github.com/bbertucc/boilerplate-gutenberg/issues
+["Issues" tab]:https://github.com/Tulane/tu-stcharles/issues
 [open repo]:https://github.com/bbertucc/boilerplate-gutenberg
 [Advanced Custom Fields]:https://advancedcustomfields.com
 [@bbertucc]:https://github.com/bbertucc
