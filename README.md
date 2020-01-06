@@ -1,6 +1,6 @@
 # Tulane Gutenberg Starter Theme
 
-This repo contains a WordPress theme built to support "Gutenberg" blocks of the [Tulane Sites] platform. This theme includes many modern standards for developing/designing websites. 
+This repo contains a WordPress theme built to support "Gutenberg" blocks of the [Tulane Sites] platform. This theme includes many modern standards for developing/designing websites. We've created [a directory of different sites] using the them.
 
 ### Theme Highlights
 - *Gutenberg Ready*: This theme is made for WordPress’s “[Gutenberg]” block editor. 
@@ -38,3 +38,4 @@ Happy hacking!
 [@bbertucc]:https://github.com/bbertucc
 [Decubing]:http://decubing.com
 [Tulane Technology Services]:https://ts.tulane.edu/
+[a directory of different sites]:https://sites.tulane.edu/directory/
