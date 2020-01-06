@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Media & Text Block
+--------------------------------------------------------------*/
+.wp-block-media-text{
+  margin-top: $cell-standard*2;
+  margin-bottom: $cell-standard*2;
+
+  // Media
+  figure.wp-block-media-text__media{
+    img{}
+  }
+
+  // Text
+  .wp-block-media-text__content{
+    p{}
+  }
+  
+}

@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+# Columns Block
+--------------------------------------------------------------*/
+.wp-block-columns{
+  margin: $cell-standard*2 auto;
+
+  // Column
+  .wp-block-column{
+    margin-bottom: 0;
+  }
+
+  // 2 Columns
+  &.has-2-columns{}
+
+  // 3 Columns
+  &.has-3-columns{}
+
+  // 4 Columns
+  &.has-4-columns{}
+
+}

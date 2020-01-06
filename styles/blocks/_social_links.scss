@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+# Social Links
+--------------------------------------------------------------*/
+.wp-block-social-links{
+
+  // Elements
+  li{
+    a{
+      svg{}
+    }
+  }
+
+  // Classes
+  .is-style-default{}
+  &.is-style-logos-only{}
+  &.is-style-pill-shape{}
+  .wp-social-link{}
+
+}

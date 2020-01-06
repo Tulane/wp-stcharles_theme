@@ -1,0 +1,77 @@
+/*--------------------------------------------------------------
+# GENERAL THEME STYLES
+--------------------------------------------------------------*/
+
+/*!
+Theme Name: TU St. Charles Theme
+Theme URI: https://git.tulane.edu
+Author: Blake Bertuccellli & Decubing Web Services
+Author URI: https://decubing.com
+Description: An elegant theme for Tulane Sites.
+Version: 0.0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tu-boilerplate-gutenberg
+Tags: block-styles, wide-blocks, one-column, left-sidebar, custom-logo, featured-images, theme-options, footer-widgets
+*/
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Spectral:400,400i,700,700i&display=swap');
+@import url("https://use.typekit.net/fje8jkg.css");
+
+// Globals (Whate can affect every style)
+@import "styles/globals/colors";
+@import "styles/globals/typefaces";
+@import "styles/globals/sizing";
+@import "styles/globals/alignments";
+@import "styles/globals/buttons";
+@import "styles/globals/elements";
+
+// Layouts
+@import "styles/layouts/archive";
+@import "styles/layouts/single";
+@import "styles/layouts/404";
+
+// Blocks
+@import "styles/blocks/archives";
+@import "styles/blocks/audio";
+@import "styles/blocks/navigation";
+@import "styles/blocks/gallery";
+@import "styles/blocks/group";
+@import "styles/blocks/pullquote";
+@import "styles/blocks/button";
+@import "styles/blocks/heading";
+@import "styles/blocks/quote";
+@import "styles/blocks/categories";	
+@import "styles/blocks/image";
+@import "styles/blocks/separator";
+@import "styles/blocks/code";
+@import "styles/blocks/instagram_embed";	
+@import "styles/blocks/spacer";
+@import "styles/blocks/columns";
+@import "styles/blocks/latest_posts";
+@import "styles/blocks/latest_comments";
+@import "styles/blocks/list";
+@import "styles/blocks/twitter_embed";
+@import "styles/blocks/cover";
+@import "styles/blocks/paragraph";
+@import "styles/blocks/video";
+@import "styles/blocks/verse";
+@import "styles/blocks/table";
+@import "styles/blocks/tu_site_directory";
+@import "styles/blocks/media_and_text";
+@import "styles/blocks/facebook_embed";	
+@import "styles/blocks/wordpress_embed";
+@import "styles/blocks/file";
+@import "styles/blocks/preformatted";	
+@import "styles/blocks/youtube_embed";
+@import "styles/blocks/social_links";
+@import "styles/blocks/tu_interfolio";
+
+// Everything else ("/etc")
+@import "styles/etc/header";
+@import "styles/etc/footer";
+@import "styles/etc/widgets";
+@import "styles/etc/classic_editor";
+@import "styles/etc/includes";
+@import "styles/etc/accessibility";

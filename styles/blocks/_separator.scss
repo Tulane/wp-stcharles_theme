@@ -1,0 +1,39 @@
+/*--------------------------------------------------------------
+# Separator Block
+--------------------------------------------------------------*/
+hr.wp-block-separator{
+  border: none;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  margin: 1.65em auto;
+  @include alignStandard();
+
+  // Short Line Separator
+  &:not(.is-style-wide):not(.is-style-dots){
+    max-width: 100px;
+  }
+
+  // Wide Line Separator
+  &.is-style-wide{
+    border-bottom-width: 1px
+  }
+
+  // Dotted Separator
+  &.is-style-dots{
+    background: none;
+    border: none;
+    text-align: center;
+    max-width: none;
+    line-height: 1;
+    height: auto;
+    &:before{
+      content: '\00b7 \00b7 \00b7';
+      color: $color-primary-900;
+      font-size: 20px;
+      letter-spacing: 2em;
+      padding-left: 2em;
+      font-family: serif;
+    }
+  }
+
+}

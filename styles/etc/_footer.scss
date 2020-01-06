@@ -1,0 +1,60 @@
+/*--------------------------------------------------------------
+# Styles for footer.php
+--------------------------------------------------------------*/
+.footer{
+  padding: $cell-standard*3;
+  text-align: center;
+
+  // Menu
+  .footer-menu{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: $cell-standard*3;
+    @media only screen and (max-width: $screen-tablet){
+      flex-wrap: wrap;
+      max-width: $screen-larger_mobile;
+      margin: 0 auto;
+    }
+    .menu-item{
+      margin: 0;
+      padding: $cell-standard/2 $cell-standard*1.5;
+      border-bottom: 1px solid $color-gray-500;
+      @media only screen and (max-width: $screen-tablet){
+        width: 100%;
+      }
+      &.current_page_item, &.current-menu-item{
+        border-bottom: 2px solid $color-primary;
+        margin-top: 1px;
+        a{
+          color: $color-primary;
+          font-weight: $font-weight-alternate-bold;
+          &:hover{
+            text-decoration: none;
+          }
+        }
+      }
+      a{
+        display: block;
+        text-decoration: none;
+        font: $font-h5;
+        letter-spacing: 1px;
+        color: $color-gray-900;
+        text-transform: uppercase;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  // Copyright Info
+  .footer-copyright_info{
+    color: $color-gray;
+    line-height: 1;
+    margin-top: $cell-standard*2;
+  }
+
+}

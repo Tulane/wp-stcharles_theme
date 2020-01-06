@@ -1,0 +1,21 @@
+// Button Mixin
+@mixin button() {
+  display: inline-block;
+  padding: .5em .85em;
+  border-radius: 4px;
+  box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+  font: $font-h5;
+  letter-spacing: 1px;
+  font-weight: $font-weight-alternate-bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  transition: .2s box-shadow;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 1px 0px 1px rgba(0,0,0,.3);
+  }
+  &:active{
+    box-shadow: inset -1px -1px 5px rgba(0,0,0,.2);
+  }
+}

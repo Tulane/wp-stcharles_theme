@@ -1,0 +1,20 @@
+/*--------------------------------------------------------------
+# Categories Block
+--------------------------------------------------------------*/
+
+// Categories
+.wp-block-categories{
+
+  // List
+  &.wp-block-categories-list{
+    .cat-item{
+      a{}
+    }
+  }
+
+  // Dropdown
+  &.wp-block-categories-dropdown{
+    select{}
+  }
+
+}

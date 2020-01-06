@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+# Typeface Settings
+--------------------------------------------------------------*/
+
+// Variables (Correspond with Block Text Styles)
+$font-family-standard: 'Spectral', serif;
+$font-family-alternate: 'freight-sans-pro', sans-serif;
+$font-weight-standard-regular: 700;
+$font-weight-alternate-bold: 700;
+$font-weight-standard-regular: 400;
+$font-weight-alternate-regular: 500;
+$font-normal_p: $font-weight-standard-regular 18px/1.8 $font-family-standard;
+$font-medium_p: $font-weight-standard-regular 23px/1.5 $font-family-standard;
+$font-small_p: $font-weight-standard-regular 15px/1.7 $font-family-standard;
+$font-large_p: $font-weight-standard-regular 34px/1.5 $font-family-standard;
+$font-huge_p: $font-weight-standard-regular 48px/1.5 $font-family-standard;
+$font-h1: $font-weight-alternate-bold 48px/1.4 $font-family-alternate;
+$font-h2: $font-weight-alternate-bold 34px/1.4 $font-family-alternate;
+$font-h3: $font-weight-alternate-bold 23px/1.4 $font-family-alternate;
+$font-h4: $font-weight-alternate-bold 18px/1.5 $font-family-alternate;
+$font-h5: $font-weight-alternate-bold 15px/1.8 $font-family-alternate;
+$font-h6: $font-weight-alternate-bold 15px/1.8 $font-family-alternate;

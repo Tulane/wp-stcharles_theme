@@ -1,0 +1,47 @@
+/*--------------------------------------------------------------
+# Latest Posts Block
+--------------------------------------------------------------*/
+ul.wp-block-latest-posts{
+  margin: 0 auto;
+  padding: 0;
+
+  // Has Dates
+  .has-dates{}
+
+  // Grid
+  .is-grid{}
+
+  // 1 Column
+  &.columns-1{}
+
+  // 2 Columns
+  &.columns-2{}
+
+  // 3 Columns
+  &.columns-3{}
+
+  // 4 Column
+  &.columns-4{}
+
+  // 5 Columns
+  &.columns-5{}
+
+  // 6 Columns
+  &.columns-6{}
+
+  // Post Element
+  li{
+    margin-bottom: $cell-standard;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+    
+    a{}
+    time{}
+
+    // Excerpt or Content
+    div{}
+
+  }
+
+}

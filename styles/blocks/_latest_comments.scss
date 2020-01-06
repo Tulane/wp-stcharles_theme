@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Latest Comments Block
+--------------------------------------------------------------*/
+.wp-block-latest-comments{
+  margin: 0;
+  padding: 0;
+
+  // Options
+  .has-dates{}
+  .has-avatars{}
+  .has-excerpts{}
+
+  // Comment
+  li{
+    margin-bottom: $cell-standard;
+    &:last-of-type{
+      margin-bottom: 0;
+    }
+
+    // Avatar
+    img{}
+
+    // Content
+    article{
+
+      // Meta
+      footer{
+
+        // Author and Link
+        a{}
+
+        // Time
+        time{}
+
+      }
+
+      // Excerpt
+      div{
+        p{}
+      }
+
+    }
+
+  }
+
+}

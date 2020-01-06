@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Global Alignments (Including Block Alignments)
+--------------------------------------------------------------*/
+
+// Mixins
+@mixin alignStandard {
+  max-width: $container-standard;  
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Classes
+.loop-the_content{ // Hack to fix WP alignment bug
+  .alignnone{
+    display: block;
+  }
+  .alignright{
+    float: right;
+    padding-left: 1em;
+  }
+  .alignleft{
+    float: left;
+    padding-right: 1em;
+  }
+  .aligncenter{
+    max-width: $container-standard;
+    margin: $cell-standard auto;
+    text-align: center;
+  }
+  .alignwide{
+    width: 100% !important;
+    max-width: $container-wide !important;
+  }
+  .alignfull{
+    width: 100vw !important;
+    max-width: 100vw !important;
+    margin-right: -#{$cell-standard} !important;
+    margin-left: -#{$cell-standard} !important;
+  }
+}

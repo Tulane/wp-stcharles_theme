@@ -1,0 +1,374 @@
+/*--------------------------------------------------------------
+# Styles for registered widgets
+--------------------------------------------------------------*/
+
+// Widgets Parent
+.widgets{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: $container-wide;
+  margin: 0 auto;
+  padding: $cell-standard*4 0;
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    display: block;
+    margin: $cell-standard*3 auto;
+    width: 100px;
+    margin-left: -50px;
+    top: -#{$cell-standard*2};
+    left: 50%;
+    height: 2px;
+    background: $color-gray-900;
+  }
+}
+
+// Widget
+.widgets-widget{
+  padding: $cell-standard;
+  margin: 0 auto;
+  width: 33.333333333%;
+
+  // Title
+  .widget-title{
+    font: $font-h4;
+  }
+
+  // Lists
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+      padding: $cell-standard/2 0;
+      border-bottom: 1px solid $color-gray-900;
+      a{}
+      ul{
+        list-style: circle;
+        padding-left: $cell-standard*2;
+        li{
+          border-bottom: none;
+          padding: 0;
+        }
+      }
+    }
+  }
+
+  // Dropdowns
+  select{}
+
+  // Images
+  img{}
+
+}
+
+// Archive Widget
+.widget_archive{
+
+  // Title
+  .widget-title{}
+
+  // List
+  ul{
+    li{
+      a{}
+    }
+  }
+
+  // Dropdown
+  select{}
+
+}
+
+// Category Widget
+.widget_categories{
+
+  // Title
+  .widget-title{}
+
+  // List
+  ul{
+    li.cat-item{
+      a{}
+    }
+  }
+
+  // Dropdown
+  form{
+    select{}
+
+  }
+
+}
+
+// Calendar Widget
+.widget_calendar{
+
+  // Widget Title
+  .widget-title{}
+
+  // Calendar
+  .calendar_wrap{
+    table{
+      width: 100%;
+      
+      // Month
+      caption{}
+
+      // Days of the Week
+      thead{
+        tr{
+          th{}
+        }
+      }
+
+      // Next / Prev Links
+      tfoot{
+        tr{
+          td{
+            &#prev{}
+            &#next{}
+          }
+        }
+      }
+
+    }
+  }
+
+}
+
+// Text Widget
+.widget_text{
+
+  // Title
+  .widget-title{}
+
+  // Content
+  div{}
+
+}
+
+// Gravity Forms Widget
+.gform_widget{
+
+  // Title
+  .widget-title{}
+
+  // Content
+  div{
+    form{
+      input{
+        width: 100% !important;
+      }
+    }
+  }
+
+  // List Content
+  ul{
+    li{
+      border: 0;
+      padding: 0 !important;
+      margin: 1em 0 0 0 !important;
+    }
+  }
+
+  // Gravity Form Pieces
+  .gform_wrapper{
+    margin-bottom: 0;
+  }
+  .gform_footer{
+    margin-top: 0;
+  }
+
+}
+
+// Gallery Widget
+.widget_media_gallery{
+
+  // Title
+  .widget-title{}
+
+  // Gallery
+  .gallery{
+    line-height: 1;
+
+    .gallery-item{
+      position: relative;
+      padding: 0;
+      margin: 0 0 2.5% 0 !important;
+      .gallery-icon{
+        margin-right: 5%;
+        a{
+          img{
+            border: 0 !important;
+          }
+        }
+      }
+      .gallery-caption{
+        position: absolute;
+        bottom: 2px;
+        margin: 0;
+        padding: 8px 2px;
+        width: 95%;
+        font: $font-small_p;
+        line-height: 1;
+        background: $color-translucent;
+        color: $color-white;
+      }
+    }
+  }
+
+}
+
+// Image Widget
+.widget_media_image{
+
+  // Title
+  .widget-title{}
+
+  // Content
+  div{
+    max-width: 100%;
+    .image{}
+    .wp-caption-text{
+      margin-top: 0;
+      font: $font-small_p;
+      color: $color-gray-900;
+    }
+  }
+
+}
+
+// Meta Widget
+.widget_meta{
+
+  // Title
+  .widget-title{}
+
+  // Content
+  ul{
+    li{
+      a{}
+    }
+  }
+
+}
+
+// Navigat Widget
+.widget_nav_menu{
+
+  // Title
+  .widget-title{}
+
+  // Menu
+  .menu-sidebar-menu-container{
+    .menu-sidebar-menu{
+      .menu-item{
+        a{}
+      }
+    }
+  }
+
+}
+
+// Pages Widget
+.widget_pages{
+
+  // Title
+  .widget-title{}
+
+  // Pages
+  ul{
+    .page_item{
+      a{}
+    }
+  }
+
+}
+
+// Comments Widget
+.widget_recent_comments{
+
+  // Title
+  .widget-title{}
+
+  // Comments
+  ul{
+    .recentcomments{
+      .comment-author-link{
+        a{}
+      }
+      a{}
+    }
+  }
+
+}
+
+// Posts Widget
+.widget_recent_entries{
+
+  // Title
+  .widget-title{}
+
+  // Posts
+  ul{
+    li{
+      a{}
+      .post-date{}
+    }
+  }
+
+}
+
+// Search Widget
+.widget_search{
+
+  // Title
+  .widget-title{}
+
+  // Search Form
+  form{
+    div{
+      display: flex;
+      input{
+        width: 70%;
+      }
+      input[type=submit]{
+        width: 30%;
+        padding: $cell-standard/2 $cell-standard/4;
+      }
+    }
+  }
+
+}
+
+// Text Widget
+.widget_text{
+
+  // Title
+  .widget-title{}
+
+  // Content
+  .textwidget{}
+
+}
+
+// Video Widget
+.widget_media_video{
+
+  // Title
+  .widget-title{}
+
+}
+
+// Widget
+.widget_text{
+
+  // Title
+  .widget-title{}
+  
+  // Video
+  .wp-video{}
+
+}

@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# Audio Block
+--------------------------------------------------------------*/
+.wp-block-audio{
+ 
+  // Audio Element
+  audio{}
+
+  // Caption Element
+  figcaption{}
+
+  // Special Hacks for alignment
+  &.alignright{
+    float: none;
+    margin-left: auto;
+    audio, figcaption{
+      float: right;
+      margin-left: 1em;
+      max-width: 300px;
+    }
+  }
+  &.alignleft{
+    float: none;
+    margin-right: auto;
+    audio, figcaption{
+      float: left;
+      margin-right: 1em;
+      max-width: 300px;
+    }
+  }
+
+}

@@ -1,0 +1,32 @@
+/*--------------------------------------------------------------
+# Twitter Embed Block
+--------------------------------------------------------------*/
+figure.wp-block-embed-twitter{
+  
+  // Ebedded Element
+  .wp-block-embed__wrapper{}
+
+  // Caption
+  figcaption{}
+
+  // Special Hacks for alignment
+  &.alignright{
+    float: none;
+    max-width: $container-standard;
+    div{
+      float: right;
+      padding-left: 1em;
+      max-width: 300px;
+    }
+  }
+  &.alignleft{
+    float: none;
+    max-width: $container-standard;
+    div{
+      float: left;
+      padding-right: 1em;
+      max-width: 300px;
+    }
+  }
+
+}

@@ -1,0 +1,129 @@
+/*--------------------------------------------------------------
+# TU Site Directory Block (enabled w/ TU Site Directory Plugin)
+--------------------------------------------------------------*/
+.block-tu_site_directory{
+
+  // Controls
+  .tu_site_directory-controls{
+    .controls-filters{
+      align-items: center;
+      .filters-search{
+
+      }
+      .filters-tags{ // Controls choices.js
+        font-family: $font-family-alternate;
+        box-shadow: 1px 1px 2px rgba(0,0,0,.1);
+        font-size: 1em !important;
+        input, button{
+          box-shadow: none;
+          padding: 0 !important;
+          font-size: 1em !important;
+        }
+        .choices__inner{
+          min-height: 36px;
+          font-size: 1em !important;
+        }
+        .choices__list--multiple {
+          .choices__item{
+            padding: 4px 2px 4px 6px;
+            border-radius: 4px;
+            background-color: $color-secondary-500;
+            border-color: $color-secondary-600;
+            font-size: 1em;
+            button{
+              padding: 0px 10px !important;
+              margin: 0 0 0 10px;
+              border-color: $color-secondary-800;
+            }
+          }
+        }
+      }
+      .filters-search_button{
+        @include button();
+        background: $color-secondary-900;
+        color: $color-white;
+        padding: 8px 16px !important;
+      }
+
+      // Responsive Filter Styling
+      @media only screen and (max-width: 530px){
+        .filters-search, .filters-tags, .filters-search_button{
+        }
+        .filters-search, .filters-tags{
+        }
+      }
+
+    }
+    .controls-sort{
+      font: $font-h5;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      color: $color-gray-900;
+      text-decoration: none;
+      &:hover{
+        text-decoration: underline;
+      }
+      @media only screen and (max-width: 530px){
+      }
+    }
+  }
+
+  // Site List
+  .tu_site_directory-site_list{
+    .site_list-single_site{
+      @media only screen and (max-width: 530px){
+      }
+      .single_site-link{
+        box-shadow: 1px 1px 2px rgba(0,0,0,.3);
+        background: $color-white;
+        text-align: center;
+        color: $color-black;
+        text-decoration: none;
+        transition: .2s box-shadow, .2s transform;
+        &:hover{
+          box-shadow: 1px 1px 8px rgba(0,0,0,.5);
+          transform: scale(1.03);
+
+        }
+        .link-image{
+          margin-bottom: 0 !important;
+          .image-the_image{
+          }
+        }
+        .link-title{
+          font: $font-medium_p;
+          line-height: 1;
+          padding: $cell-standard 0 $cell-standard/2;
+          display: block;
+        }
+        .link-author{
+          display: block;
+          font: $font-h5;
+          color: $color-primary;
+          line-height: 1;
+          text-transform: uppercase;
+          letter-spacing: .1em;
+          padding-bottom: $cell-standard;
+        }
+      }
+
+    }
+  }
+
+  // Error Message
+  .tu_site_directory-error{
+  }
+
+  // Footer
+  .tu_site_directory-footer{
+    font: $font-h5;
+    color: $color-gray;
+    text-transform: uppercase;
+    .footer-next, .footer-prev{
+      @include button();
+      background: $color-secondary-900;
+      color: $color-white;
+    }
+  }
+  
+}

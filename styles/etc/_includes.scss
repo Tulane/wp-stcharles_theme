@@ -1,0 +1,46 @@
+/*--------------------------------------------------------------
+# Styles everything in '/includes'
+--------------------------------------------------------------*/
+
+// Tulane Attribution Header (includes/tulane_attribution.php)
+.include-tulane_attribution_header{
+  background: $color-primary;
+  padding: $cell-standard/2;
+  line-height: 1;
+  text-align: center;
+  .tulane_attribution_header-the_attribution{
+    color: $color-white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    white-space: nowrap;
+    &:hover{
+      text-decoration: underline;
+    }
+    .the_attribution-badge{
+      width: $cell-standard*1.5;
+    }
+    .the_attribution-text{
+      font: $font-h5;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      line-height: 1;
+      font-weight: $font-weight-alternate-bold;
+      margin-left: $cell-standard;
+    }
+  }
+}
+
+// Tulane Attribution Footer (includes/tulane_attribution.php)
+.include-tulane_attribution_footer{
+  text-align: center;
+  @media only screen and (max-width: $screen-tablet){
+    margin-top: $cell-standard*3;
+  }
+  .tulane_attribution_footer-the_attribution{
+    .the_attribution-badge{
+      width: $cell-standard*13;
+    }
+  }
+}

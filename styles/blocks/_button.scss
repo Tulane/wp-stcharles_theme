@@ -1,0 +1,44 @@
+/*--------------------------------------------------------------
+# Button Block
+--------------------------------------------------------------*/
+.wp-block-button{
+  margin: $cell-standard 0;
+
+  // Outlined Style
+  &.is-style-outline{
+    a{
+      box-shadow: none;
+    }
+  }
+
+  // Squared Style
+  &.is-style-squared{
+    a{
+      border-radius: 0;
+    }
+  }
+
+  // Button Link
+  a, .wp-block-button__link{
+    @include button();
+  }
+
+  // Special Hacks for alignment
+  &.alignright{
+    float: none;
+    a{
+      float: right;
+      margin-left: 1em;
+      max-width: 300px;
+    }
+  }
+  &.alignleft{
+    float: none;
+    a{
+      float: left;
+      margin-right: 1em;
+      max-width: 300px;
+    }
+  }
+
+}

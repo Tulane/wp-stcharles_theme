@@ -1,0 +1,129 @@
+/*--------------------------------------------------------------
+# Global Colors (Declared in block_setup.php)
+--------------------------------------------------------------*/
+
+// Variables
+$color-primary: #285C48;
+$color-primary-900: #046A38; 
+$color-primary-800: #168A4D; 
+$color-primary-700: #1E9B58; 
+$color-primary-600: #28AE65; 
+$color-primary-500: #30BE70; 
+$color-primary-400: #56C886; 
+$color-primary-300: #77D39B; 
+$color-primary-200: #A0DFB8; 
+$color-primary-100: #C5EBD3; 
+$color-primary-50: #E7F7ED; 
+$color-primary-gradient: linear-gradient(0deg, rgba(40,92,72,1) 0%, rgba(30,155,88,1) 100%);
+$color-secondary: #71C0E8;
+$color-secondary-900: #00418D; 
+$color-secondary-800: #005DA9; 
+$color-secondary-700: #006DB9; 
+$color-secondary-600: #007ECA; 
+$color-secondary-500: #008BD6; 
+$color-secondary-400: #069BD9; 
+$color-secondary-300: #52ABDB; 
+$color-secondary-200: #89C2E2; 
+$color-secondary-100: #B9D9EB; 
+$color-secondary-50: #E2F0F6; 
+$color-secondary-gradient: linear-gradient(0deg, rgba(0,65,141,1) 0%, rgba(0,109,185,1) 100%);
+$color-moss: #EAF6E3;
+$color-black: #000;
+$color-gray: #7C878E;
+$color-gray-900: #8F98A1;
+$color-gray-500: rgb(180, 189, 197);
+$color-gray-200: rgb(218, 218, 218);
+$color-gray-50: #F3F3F4;
+$color-gray-25: #f9f9f9;
+$color-white: #ffffff;
+$color-translucent: rgba(0,0,0,0.6);
+
+// Backgrounds
+.has-primary-background-color{
+  background-color: $color-primary;  
+}
+.has-primary-900-background-color{
+  background-color: $color-primary-900;  
+}
+.has-primary-700-background-color{
+  background-color: $color-primary-700;  
+}
+.has-primary-gradient-background{
+  background-color: $color-primary;  
+  background: $color-primary-gradient;
+}
+.has-secondary-background-color{
+  background-color: $color-secondary;
+}
+.has-secondary-500-background-color{
+  background-color: $color-secondary-500;  
+}
+.has-secondary-gradient-background{
+  background-color: $color-secondary-500;  
+  background: $color-secondary-gradient;
+}
+.has-moss-background-color{
+  background-color: $color-moss;  
+}
+.has-black-background-color{
+  background-color: $color-black;  
+}
+.has-gray-background-color{
+  background-color: $color-gray;  
+}
+.has-gray-900-background-color{
+  background-color: $color-gray-900;  
+}
+.has-gray-50-background-color{
+  background-color: $color-gray-50;  
+}
+.has-white-background-color{
+  background-color: $color-white;  
+}
+.has-translucent-background-color{
+  background-color: $color-translucent;  
+}
+
+// Colors
+.has-primary-color{
+  color: $color-primary;  
+}
+.has-primary-900-color{
+  color: $color-primary-900;  
+}
+.has-primary-700-color{
+  color: $color-primary-700;  
+}
+.has-primary-gradient-color{
+  color: $color-primary-gradient;
+}
+.has-secondary-color{
+  color: $color-secondary;
+}
+.has-secondary-500-color{
+  color: $color-secondary-500;  
+}
+.has-secondary-gradient-color{
+  color: $color-secondary-gradient;
+}
+.has-moss-color{
+  color: $color-moss;  
+}
+.has-black-color{
+  color: $color-black;  
+}
+.has-gray-color{
+  color: $color-gray;  
+}
+.has-gray-900-color{
+  color: $color-gray-900;  
+}
+.has-gray-50-color{
+  color: $color-gray-50;  
+}
+.has-white-color{
+  color: $color-white;  
+}
+.has-translucent-color{
+  color: $color-translucent;  
+}

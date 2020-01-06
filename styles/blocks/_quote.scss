@@ -1,0 +1,23 @@
+/*--------------------------------------------------------------
+# Quote Block
+--------------------------------------------------------------*/
+.wp-block-quote{
+  border-left: 4px solid $color-gray;
+  padding: 0 $cell-standard;
+
+  // Large Style
+  &.is-style-large{
+    margin: 0 $cell-standard;
+    border-left: 0;
+  }
+
+  // Paragraph
+  p{}
+
+  // Citation
+  cite{
+    font: $font-small_p !important;
+    color: $color-gray-900;
+  }
+
+}

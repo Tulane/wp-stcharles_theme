@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Spacing Settings (Based on the 16px font size)
+--------------------------------------------------------------*/
+
+// Single Cell Settings
+$cell-standard: 16px;
+
+// Container Sizes
+$container-standard: 580px;
+$container-wide: 1100px;
+$container-full: 100vw;
+
+// Screen Sizes
+$screen-mobile: $cell-standard*20;
+$screen-larger_mobile: $cell-standard*25;
+$screen-tablet: $cell-standard*48;
+$screen-smaller_desktop: $cell-standard*57;
+$screen-desktop: $cell-standard*75;

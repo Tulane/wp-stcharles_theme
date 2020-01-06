@@ -1,0 +1,149 @@
+/*--------------------------------------------------------------
+# Archive Layout (layouts/archive.php)
+--------------------------------------------------------------*/
+.layout-archive{
+  
+  // Contenti
+  .archive-content{
+    width: 100%;
+    padding: 0 0 $cell-standard*3;
+    
+    // Masthead
+    .content-masthead{
+      padding: $cell-standard 0 0;
+      &:after{
+        content: '';
+        display: block;
+        margin: $cell-standard*3 auto;
+        width: 100px;
+        height: 2px;
+        background: $color-gray-900;
+      }
+      // All items
+      & > div{
+        max-width: 480px;
+        margin: 0 auto;
+        padding: $cell-standard/2 0;
+        text-align: center;
+      }
+
+      // Title  
+      .masthead-title{
+        font: $font-h1;
+        line-height: 1;
+      }
+
+      // Description  
+      .masthead-description{
+        font: $font-medium_p;
+        color: $color-gray;
+        font-style: italic;
+      }
+
+      // Subcategories
+      .masthead-subcategories{
+        .subcategories-link{
+          display: inline-block;
+          font: $font-small_p;
+          font-weight: $font-weight-alternate-bold;
+          background: $color-secondary-500;
+          padding: .5em 1em;
+          color: $color-white;
+          text-decoration: none;
+          border-radius: 4px;
+        }
+      }
+
+    }
+    
+    // Loop and Error
+    .content-loop, .content-error{
+      max-width: $container-standard;
+      margin: 0 auto;
+    }
+
+    // Loop Content
+    .content-loop{
+
+      // Listed Post
+      .loop-listed_post{
+        margin-top: $cell-standard;
+        &:before{
+          content: '';
+          display: block;
+          margin: $cell-standard*3 auto;
+          width: 100px;
+          height: 2px;
+          background: $color-gray-900;
+        }
+        &:first-of-type:before{
+          display: none;
+        }
+        .listed_post-image{
+          border-radius: 6px;
+          overflow: hidden;
+          display: block;
+          line-height: 0;
+        }
+        .listed_post-post{
+          .post-meta{
+            font: $font-h5;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            a{
+              text-decoration: none;
+              &:hover{
+                text-decoration: underline;
+              }
+            }
+          }
+          .post-title{
+            font: $font-h2;
+            color: $color-black;
+            text-decoration: none;
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+          .post-excerpt{
+            font: $font-medium_p;
+            margin-top: $cell-standard/2;
+          }
+        }
+      }
+
+      // Pagination
+      .loop-page{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: $cell-standard*2 0 0;
+        .page-numbers{
+          margin: $cell-standard/2;
+          &.next{}
+          &.previous{}
+          &.current{}
+        }
+      }
+
+    }
+
+    // Error
+    .content-error{
+      text-align: center;
+        
+      // Title
+      .error-title{
+        font: $font-h3;
+      }
+      
+      // Body
+      .error-body{
+        font: $font-medium_p;
+      }
+        
+    }
+  
+  }
+
+}

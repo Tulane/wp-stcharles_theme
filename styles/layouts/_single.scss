@@ -1,0 +1,108 @@
+/*--------------------------------------------------------------
+# Single Content Layout (layouts/single.php)
+--------------------------------------------------------------*/
+.layout-single{
+
+  // Loop & Error
+  .single-loop, .single-error{
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  // Loop
+  .single-loop{
+
+    // Title
+    .loop-the_title{
+      font: $font-h1;
+      padding-bottom: $cell-standard*2;
+      @include alignStandard();
+      text-align: center;
+    }
+
+    // The Content
+    .loop-the_content{
+      padding: 0 $cell-standard;
+      
+      // Guttenberg Alignment Hack
+      & > *  {
+        @include alignStandard();
+      }
+
+    }
+
+    // Meta
+    .loop-meta{
+      width: $container-standard;
+      margin: $cell-standard auto $cell-standard*2 auto;
+      text-align: center;
+      color: $color-gray-900;
+      font: $font-h5;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      &:before{
+        content: '';
+        display: block;
+        margin: $cell-standard*3 auto;
+        width: 100px;
+        height: 2px;
+        background: $color-gray-900;
+      }
+      
+      // All links
+      a{
+        color: $color-gray-900;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+
+      // All icons
+      svg{
+        fill: $color-gray-900;
+        margin-right: 3px;
+        position: relative;
+        top: 3px;
+      }
+      
+      // Author Meta
+      .meta-author{
+        margin-right: $cell-standard;
+        .categories-icon{}
+      }
+      
+      // Date
+      .meta-date{
+        margin-right: $cell-standard;
+        .date-icon{}
+      }
+
+      // Categories
+      .meta-categories{
+        .categories-icon{}
+        .categories-the_category{}
+      }
+
+    }
+  
+  }
+
+  // Error
+  .single-error{
+    text-align: center;
+    padding-bottom: $cell-standard*2;
+      
+    // Title
+    .error-title{
+      font: $font-h3;
+    }
+    
+    // Body
+    .error-body{
+      font: $font-medium_p;
+    }
+      
+  }
+
+}

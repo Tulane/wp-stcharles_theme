@@ -1,0 +1,19 @@
+/*--------------------------------------------------------------
+# Image Block
+--------------------------------------------------------------*/
+.wp-block-image{
+
+  // Image Element
+  img{
+    border-radius: 6px;
+    overflow: hidden;
+  }
+
+  // Caption Element
+  figcaption{
+    font: $font-small_p;
+    text-align: center;
+    color: $color-gray-900;
+  }
+
+}

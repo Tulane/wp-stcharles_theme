@@ -1,0 +1,18 @@
+/*--------------------------------------------------------------
+# Video Block
+--------------------------------------------------------------*/
+.wp-block-video{
+ 
+  // Video Element
+  video{
+    width: 100%;
+  }
+
+  // Caption Element
+  figcaption{
+    font: $font-small_p;
+    text-align: center;
+    color: $color-gray-900;
+  }
+
+}
