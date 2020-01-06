@@ -1,6 +1,6 @@
-# Tulane Gutenberg Starter Theme
+# "St. Charles" Theme
 
-This repo contains a WordPress theme built to support "Gutenberg" blocks of the [Tulane Sites] platform. This theme includes many modern standards for developing/designing websites. We've created [a directory of different sites] using the them.
+This repo contains a WordPress theme built to support "Gutenberg" blocks of the [Tulane Sites] platform. This theme includes many modern standards for developing/designing websites. We've created [a directory of different sites] using the theme.
 
 ### Theme Highlights
 - *Gutenberg Ready*: This theme is made for WordPress’s “[Gutenberg]” block editor. 
